@@ -1,0 +1,21 @@
+[
+    {
+      "kode_produk": 1,
+      "nama_produk": "ff",
+      "harga": "50000",
+      "stok": "tersedia"
+    },
+    {
+      "kode_produk": 2,
+      "nama_produk": "pg",
+      "harga": "50000",
+      "stok": "tersedia"
+    },
+    {
+      "kode_produk": 3,
+      "nama_produk": "ty",
+      "harga": "50000",
+      "stok": "tidak tersedia"
+    }
+   
+  ]

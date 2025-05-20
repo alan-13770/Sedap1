@@ -1,0 +1,21 @@
+[
+    {
+      "kode_produk": 1,
+      "nama_produk": "John Doe",
+      "harga": "john.doe@example.com",
+      "stok": "555-0101"
+    },
+    {
+      "kode_produk": 2,
+      "nama_produk": "Jane Smith",
+      "harga": "jane.smith@example.com",
+      "stok": "555-0102"
+    },
+    {
+      "kode_produk": 3,
+      "nama_produk": "Robert Johnson",
+      "harga": "robert.j@example.com",
+      "stok": "555-0103"
+    }
+   
+  ]
