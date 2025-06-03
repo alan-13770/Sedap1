@@ -36,6 +36,7 @@ const Error403 = React.lazy(() => import("./pages/Error403"))
 const NotFound = React.lazy(() => import("./pages/NotFound"))
 const UserList = React.lazy(() => import("./pages/UserList"))
 const CekProduk = React.lazy(() => import("./pages/CekProduk"))
+const Notes = React.lazy(() => import("./pages/Notes"))
 
 
 //Layout
@@ -61,6 +62,7 @@ function App() {
           <Route path="/customers" element={<Customers />} />
           <Route path="/UserList" element={<UserList/>} />
           <Route path="/CekProduk" element={<CekProduk/>} />
+          <Route path="/Notes" element={<Notes/>} />
 
       
         </Route>

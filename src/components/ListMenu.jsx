@@ -1,3 +1,4 @@
+import { CgNotes } from "react-icons/cg"; 
 import { BiUserPin } from "react-icons/bi"; 
 import { MdPeople, MdShoppingCart, MdSpaceDashboard } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
@@ -49,6 +50,12 @@ export default function ListMenu() {
                         <MdShoppingCart className="mr-4 text-xl" />
                         Cek Produk
                     </NavLink>
+                     <li>
+                    <NavLink id="menu-5" to="/Notes" className={menuClass}>
+                        <CgNotes className="mr-4 text-xl"/>
+                        Notes
+                    </NavLink>
+                </li>
                 </li>
             </ul>
             <div className="text-lg font-bold pt-6">Error Pages</div>
